@@ -24,7 +24,26 @@ namespace Interaccion
         {
             InitializeComponent();
 
+            btn.Click += Btn_Click;
+        }
+
+        private void Btn_Click(object sender, RoutedEventArgs e)
+        {
             lblHola.Text = "Adios mundo!";
+            lblHola.FontSize = 29;
+            lblHola.Foreground = Brushes.Red;
+        }
+
+        private void Btn2_Click(object sender, RoutedEventArgs e)
+        {
+            lblHola.Text = "Segundo Botón!";
+            lblHola.FontSize = 29;
+            lblHola.Foreground = Brushes.Red;
+        }
+
+        private void Btn3_Click(object sender, RoutedEventArgs e)
+        {
+            lblHola.Text = "Tercer Botón!";
             lblHola.FontSize = 29;
             lblHola.Foreground = Brushes.Red;
         }

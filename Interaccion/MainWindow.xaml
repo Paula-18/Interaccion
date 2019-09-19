@@ -9,5 +9,9 @@
     <Grid>
         <TextBlock x:Name="lblHola">Hola mundo!</TextBlock>
         <Button x:Name="btn" Width="100" Height="50" Margin="-620,-300, 0, 0">Botón</Button>
+        <Button x:Name="btn2" Width="100" Height="50" Margin="-320,-300, 0, 0"
+                Click="Btn2_Click">Botón 2</Button>
+        <Button x:Name="btn3" Width="100" Height="50" Margin="-620,-300, 0, -150"
+                Click="Btn3_Click">Botón 3</Button>
     </Grid>
 </Window>
